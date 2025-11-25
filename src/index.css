@@ -1,0 +1,38 @@
+html, body { height: 100%; }
+body { display: flex; flex-direction: column; }
+#root { display: flex; flex-direction: column; min-height: 100vh; }
+main { flex: 1; }
+
+
+:root{
+--bg:#f2f2f2;
+--accent:#b8b8b8; /* Updated */
+--muted:#9a9a9a; /* Updated */
+}
+*{box-sizing:border-box}
+body{font-family:Inter,system-ui,Arial,sans-serif;margin:0;background:var(--bg);color:#111}
+.container{max-width:1000px;margin:0 auto;padding:2rem}
+.site-header{background:white;box-shadow:0 1px 3px rgba(0,0,0,0.06)}
+.header-inner{display:flex;align-items:center;justify-content:space-between;padding:1rem 0}
+.brand{margin:0}
+nav a{margin-left:1rem;text-decoration:none;color:var(--muted)}
+.hero{padding:4rem 0;text-align:center}
+.btn{display:inline-block;padding:.6rem 1rem;border-radius:8px;border:none;background:var(--accent);color:white;text-decoration:none}
+.about, .projects, .contact{background:white;margin-top:1.5rem;padding:1.5rem;border-radius:10px}
+.project-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
+.project-card{padding:1rem;border:1px solid #eee;border-radius:8px}
+.skills{display:flex;gap:.5rem;flex-wrap:wrap;list-style:none;padding:0}
+.site-footer{margin-top:2rem;padding:1rem;text-align:center;color:var(--muted)}
+label{display:block;margin:0.5rem 0}
+input, textarea{width:100%;padding:.5rem;margin-top:.25rem}
+
+
+/* Make images responsive */
+.responsive-img {
+width: 140px;
+height: 140px;
+border-radius: 50%;
+object-fit: cover;
+display: block;
+margin: 0 auto;
+}
