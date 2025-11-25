@@ -15,7 +15,7 @@ I build web apps with React. I love clean interfaces, effective UX, and learning
 </p>
 
 
-<Link to="/skills" className="btn btn-primary btn-lg mt-3" style={{background:"#9a9a9a", border:"none"}}>
+<Link to="/projects" className="btn btn-primary btn-lg mt-3" style={{background:"#9a9a9a", border:"none"}}>
 See my work
 </Link>
 </div>
